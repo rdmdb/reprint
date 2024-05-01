@@ -2,6 +2,8 @@
 
 *Reprint is a Go library to deep copy any object THE RIGHT WAY :tm:*
 
+**This version is a fork from github.com/qdm12/reprint to resolve dependency vulnerabilities.**
+
 [![reprint](https://github.com/qdm12/reprint/raw/master/title.png)](https://github.com/qdm12/reprint)
 
 [![Join Slack channel](https://img.shields.io/badge/slack-@qdm12-yellow.svg?logo=slack)](https://join.slack.com/t/qdm12/shared_invite/enQtOTE0NjcxNTM1ODc5LTYyZmVlOTM3MGI4ZWU0YmJkMjUxNmQ4ODQ2OTAwYzMxMTlhY2Q1MWQyOWUyNjc2ODliNjFjMDUxNWNmNzk5MDk)
@@ -26,7 +28,7 @@ It works with slices, arrays, maps, pointers, nested pointers, nils, structs (wi
 ## Usage
 
 ```sh
-go get -u github.com/qdm12/reprint
+go get -u github.com/rdmdb/reprint
 ```
 
 You can check out [Golang Playground](https://play.golang.org/p/ukbIYl_gLqu) and activate **Imports** at the top, or read this:
@@ -37,7 +39,7 @@ package main
 import (
     "fmt"
 
-    "github.com/qdm12/reprint"
+    "github.com/rdmdb/reprint"
 )
 
 func main() {

@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/qdm12/reprint"
+	"github.com/rdmdb/reprint"
 )
 
 func main() {
